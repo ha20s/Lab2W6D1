@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: serif;
+    color: black;
+    
+}
+
+/* bg */
+.header-background {
+
+    width: 100%;   
+    background: linear-gradient(to right, white 60%, #C99584 40%);
+    /* z-index: -1;         */
+  }
+
+  /* tetxt styling */
+
+  .text-pink{
+    color: #C99584;
+  }
+
+  .text-gray{
+    color: #6F7C84;
+  }
+
+
+  /* btns and links */
+
+  .play-btn{
+    background-color: white;
+    color: #C99584;
+
+  }
+
+  .play-btn:hover{
+    background-color: #C99584;
+    color: white;
+
+  }
+
+  .pink-btn{
+    background-color: #C99584;
+    border: 1px solid white;
+    color : white;
+
+  }
+
+  .pink-btn:hover{
+    background-color: white;
+    
+    color : black;
+  }
+
+
+  .white-btn{
+    background-color: white;
+    border: 1px solid #C99584;
+    color : #C99584;
+    padding : 0.5rem 1rem ;
+
+
+  }
+
+  .white-btn:hover{
+    background-color: #C99584;
+    border: 1px solid white;
+    color : white;
+  }
+
+  .link-black{
+    color:  black;
+  }
+
+  .link-black:hover{
+    color:#C99584;
+  }
+  
